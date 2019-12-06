@@ -1,9 +1,10 @@
 # ViperSDK
 Innocomm Viper Sample code
 
-Project configuration:
+# Project configuration:
 
-In root build.gradle:
+## In root build.gradle:
+
     allprojects {
         repositories {
             ...
@@ -12,12 +13,15 @@ In root build.gradle:
             }
         }
     }
+    
+## In your app build.gradle:
 
-In your app build.gradle:
     implementation 'com.innocomm:vipersdk:1.0.2'
     implementation 'com.squareup.okhttp3:okhttp:4.2.2'
-    
-Usage:
-BCRManager mBCRManager;
-mBCRManager = new BCRManager(CONTEXT);
-mBCRManager.scan(true);
+
+## Usage:
+
+    BCRManager mBCRManager;
+    mBCRManager = new BCRManager(CONTEXT);
+    mBCRManager.scan(true);
+
