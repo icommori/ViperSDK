@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TestReaderCMD</string>
+    <string name="action_get">GetInfo</string>
+    <string name="action_asyncscan">Async Scan</string>
+    <string name="action_scan">Scan</string>
+    <string name="action_touch_enable">Touch Enable</string>
+    <string name="action_touch_disable">Touch Disable</string>
+    <string name="action_reader_enable">Reader Enable</string>
+    <string name="action_reader_disable">Reader Disable</string>
+    <string name="action_autotest">Start Test</string>
+    <string name="action_autotest_stop">Stop Test</string>
+    <string name="action_camera">Camera</string>
+    <string name="action_reader_provision">Provision Test</string>
+    <string name="action_toggle_illumination">Toggle Illumination</string>
+</resources>

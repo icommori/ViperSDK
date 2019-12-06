@@ -1,0 +1,51 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.innocomm.testreadercmd.MainActivity">
+    <item
+        android:id="@+id/action_camera"
+        android:title="@string/action_camera"
+        android:icon="@mipmap/ic_launcher_camera"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_get"
+        android:title="@string/action_get"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_async_scan"
+        android:title="@string/action_asyncscan"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_scan"
+        android:title="@string/action_scan"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_touch_enable"
+        android:title="@string/action_touch_enable"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_touch_disable"
+        android:title="@string/action_touch_disable"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_reader_enable"
+        android:title="@string/action_reader_enable"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_reader_disable"
+        android:title="@string/action_reader_disable"
+        app:showAsAction="never" />
+    <!--item
+        android:id="@+id/action_reader_provision"
+        android:title="@string/action_reader_provision"
+        app:showAsAction="never" /-->
+    <item
+        android:id="@+id/action_autotest"
+        android:title="@string/action_autotest"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_toggle_illumination"
+        android:title="@string/action_toggle_illumination"
+        app:showAsAction="never" />
+</menu>
