@@ -16,7 +16,7 @@ Innocomm Viper Sample code
     
 ## In your app build.gradle:
 
-    implementation 'com.innocomm:vipersdk:1.0.2'
+    implementation 'com.innocomm:vipersdk:1.0.4'
     implementation 'com.squareup.okhttp3:okhttp:4.2.2'
 
 ## Usage:
