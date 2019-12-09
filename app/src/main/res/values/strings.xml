@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TestReaderCMD</string>
+    <string name="app_name">Test SDK</string>
     <string name="action_get">GetInfo</string>
     <string name="action_asyncscan">Async Scan</string>
     <string name="action_scan">Scan</string>
